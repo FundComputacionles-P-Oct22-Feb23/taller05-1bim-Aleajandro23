@@ -1,0 +1,21 @@
+1. Inicio
+2. articulo, x(20)[{A-Z},{a-z},{BS}]
+3. precio_unitario, d[0-n]
+4. unidades, i[0-n]
+5. descuento, d[0-n] <-- 15 // 15% o 0.15
+6. valor_total, d[0-n]
+
+7. << "Ingrese el articulo que desea comprar"
+8.  >> articulo
+9. << "Ingrese la cantidad de unidades que desea adquirir"
+10. >> unidades
+
+11. valor_total <-- unidades * precio_unitario
+
+12. Si unidades > 50 entonces 
+13.  valor_total <-- valor_total * 0.15
+14. FinSi
+
+15. << "El valor del pedido es:" + valor_total
+
+16. Fin

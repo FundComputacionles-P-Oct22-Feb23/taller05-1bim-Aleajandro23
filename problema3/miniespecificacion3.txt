@@ -1,0 +1,18 @@
+1. Inicio 
+2. centigrados, d[0-n]
+3. farenheit, d[0-n]
+4. kelvin, d[0-n]
+
+5. << "Ingrese el valor de temperatura en grados centigrados"
+6. >> centigrados
+
+7. farenheit <-- centigrados * (9/5) + 32
+
+8. Si centigrados >= 0 and <= 100 Entonces
+9.   kelvin <-- centigrados + 273.15
+10. FinSi
+
+11. << "De centigrados a farenheit es:" + farenheit
+12. << "De centigrados a kelvin es:" + kelvin
+
+13. Fin
